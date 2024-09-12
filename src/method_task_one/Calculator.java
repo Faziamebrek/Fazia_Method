@@ -25,7 +25,14 @@ public class Calculator {
                 System.out.println(" invalid operator");
 
         }
-
-
     }
-}
+
+
+        public static void main (String[]args){
+            Calculator calculatorJava = new Calculator();
+
+
+            calculatorJava.getCalculation(3, 5, '+');
+        }
+    }
+
